@@ -5,7 +5,7 @@ import Card from '../components/Card';
 import DoctorWho from '../assets/images/Doctor-Who.png';
 import TrailFinder from '../assets/images/Trail-Finder.png';
 import GetMeals from '../assets/images/Get-Meals.png';
-import BookNation from '../assets/images/BookNation-Placeholder.png'
+import BookNation from '../assets/images/BookNation.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -23,14 +23,14 @@ class Carousel extends React.Component {
                     link: 'https://get-meals-app.now.sh/',
                     selected: false
                 },
-                // {
-                //     id: 1,
-                //     title: 'BookNation',
-                //     subTitle: 'An all in one stop to review books',
-                //     imgSrc: BookNation,
-                //     link: 'https://booknation-app.now.sh/',
-                //     selected: false
-                // },
+                {
+                    id: 1,
+                    title: 'BookNation',
+                    subTitle: 'An all in one stop to review books',
+                    imgSrc: BookNation,
+                    link: 'https://booknation-app.now.sh/',
+                    selected: false
+                },
                 {
                     id: 2,
                     title: 'Doctor Who Quiz App',
