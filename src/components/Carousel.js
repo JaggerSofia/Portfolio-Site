@@ -20,7 +20,10 @@ class Carousel extends React.Component {
                     title: 'Get Meals',
                     subTitle: 'Never go hungry',
                     imgSrc: GetMeals,
+                    description: 'A platform to find and share locations serving food and meals to those in need.',
+                    tech: 'React, JSX, JavaScript, CSS, NodeJS, ExpressJS, PostgresSQL',
                     link: 'https://get-meals-app.now.sh/',
+                    repoFront: 'https://github.com/zzboncak/get-meals-client',
                     selected: false
                 },
                 {
@@ -28,7 +31,10 @@ class Carousel extends React.Component {
                     title: 'BookNation',
                     subTitle: 'An all in one stop to review books',
                     imgSrc: BookNation,
+                    description: 'React, JSX, JavaScript, CSS, NodeJS, ExpressJS, PostgreSQL',
+                    tech: '',
                     link: 'https://booknation-app.now.sh/',
+                    repoFront: 'https://github.com/JaggerSofia/booknation-client',
                     selected: false
                 },
                 {
@@ -36,7 +42,10 @@ class Carousel extends React.Component {
                     title: 'Doctor Who Quiz App',
                     subTitle: 'For all those Whovians out there',
                     imgSrc: DoctorWho,
+                    description: 'This is a quiz regarding the iconic British television show Doctor Who spanning all 57 years of it\'s runtime on BBC.',
+                    tech: 'HTML, CSS, JavaScrip, jQuery',
                     link: 'https://jaggersofia.github.io/Quiz-App/',
+                    repoFront: 'https://github.com/JaggerSofia/Quiz-App',
                     selected: false
                 },
                 {
@@ -44,7 +53,10 @@ class Carousel extends React.Component {
                     title: 'Trail Finder',
                     subTitle: 'Find the Perfect Trail For You',
                     imgSrc: TrailFinder,
+                    description: 'This app allows the user to search for hiking trails based on a geological search.',
+                    tech: 'HTML, CSS, JavaScrip, jQuery',
                     link: 'https://jaggersofia.github.io/Trail-Finder/',
+                    repoFront: 'https://github.com/JaggerSofia/Trail-Finder',
                     selected: false
                 }
             ]
