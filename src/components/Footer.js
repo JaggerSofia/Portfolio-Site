@@ -15,7 +15,7 @@ function Footer() {
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
                         <a href='mailto:victoriamoore563@gmail.com' target="_blank" rel="noopener noreferrer">
-                            <Button >Email</Button>
+                            <Button>Email</Button>
                         </a>
                         <a href='https://github.com/JaggerSofia' target="_blank" rel="noopener noreferrer">
                             <Button>GitHub</Button>
