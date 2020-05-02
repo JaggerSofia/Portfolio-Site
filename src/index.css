@@ -50,15 +50,27 @@ code {
   padding: 10px 15px;
 }
 
+.btn {
+  margin: 0 10px
+}
 
 .btn-primary {
-    background-color: #000c!important;
-    border-color: #000 !important;
-    color:#d3bb33 !important;
+    background-color: #EACCF8!important;
+    border-color: #69EACB !important;
+    color:#6654F1 !important;
+    padding: 0 10px;
 }
 .btn-primary:hover,
 .btn-primary:active {
-    background-color: #d3bb00 !important;
-    border-color: #000 !important;
-    color:#000 !important;
+    background-color: #000 !important;
+    border-color: #69EACB !important;
+    color: #EACCF8 !important;
+}
+
+.description {
+  width: 60%;
+}
+
+.social-link {
+  padding: 20px 0;
 }
