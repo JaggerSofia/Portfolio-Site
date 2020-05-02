@@ -31,8 +31,8 @@ class Carousel extends React.Component {
                     title: 'BookNation',
                     subTitle: 'An all in one stop to review books',
                     imgSrc: BookNation,
-                    description: 'React, JSX, JavaScript, CSS, NodeJS, ExpressJS, PostgreSQL',
-                    tech: '',
+                    description: 'This app allows the user to rate their favorite books.',
+                    tech: 'React, JSX, JavaScript, CSS, NodeJS, ExpressJS, PostgreSQL',
                     link: 'https://booknation-app.now.sh/',
                     repoFront: 'https://github.com/JaggerSofia/booknation-client',
                     selected: false
@@ -91,7 +91,7 @@ class Carousel extends React.Component {
     render() {
         return(
             <Container fluid={true}>
-                <Row className="justify-content-around">
+                <Row className="justify-content-center">
                     {this.makeItems(this.state.items)}
                 </Row>
             </Container>
