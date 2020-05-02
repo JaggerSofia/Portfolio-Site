@@ -9,7 +9,7 @@ function Card(props) {
         <div className="d-inline-block v-card" onClick={(e) => props.click(props.item)}>
             <img className="v-card-image" src={props.item.imgSrc} alt={props.item.imgSrc} />
             { props.item.selected && 
-                <CardInfo
+                <CardInfo 
                     title={props.item.title}
                     subTitle={props.item.subTitle}
                     description={props.item.description}
