@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, NavLink} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -47,8 +47,8 @@ class App extends React.Component {
 
             <Navbar.Collapse id='navbar-toggle'>
               <Nav className='ml-auto'>
-                <Link className='nav-link' to='/'>Home</Link>
-                <Link className='nav-link' to='/about'>About</Link>
+                <NavLink className='nav-link' to='/'>Home</NavLink>
+                <NavLink className='nav-link' to='/about'>About</NavLink>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
