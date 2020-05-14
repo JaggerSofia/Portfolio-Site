@@ -43,7 +43,7 @@ class Carousel extends React.Component {
                     subTitle: 'For all those Whovians out there',
                     imgSrc: DoctorWho,
                     description: 'This is a quiz regarding the iconic British television show Doctor Who spanning all 57 years of it\'s runtime on BBC.',
-                    tech: 'HTML, CSS, JavaScrip, jQuery',
+                    tech: 'HTML, CSS, JavaScript, jQuery',
                     link: 'https://jaggersofia.github.io/Quiz-App/',
                     repoFront: 'https://github.com/JaggerSofia/Quiz-App',
                     selected: false
@@ -54,7 +54,7 @@ class Carousel extends React.Component {
                     subTitle: 'Find the Perfect Trail For You',
                     imgSrc: TrailFinder,
                     description: 'This app allows the user to search for hiking trails based on a geological search.',
-                    tech: 'HTML, CSS, JavaScrip, jQuery',
+                    tech: 'HTML, CSS, JavaScript, jQuery',
                     link: 'https://jaggersofia.github.io/Trail-Finder/',
                     repoFront: 'https://github.com/JaggerSofia/Trail-Finder',
                     selected: false
