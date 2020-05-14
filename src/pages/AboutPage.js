@@ -7,7 +7,7 @@ function AboutPage(props) {
         <div>
             <Hero title={props.title} />
             <Content>
-                <p>Hello, my name is Victorim. I'm a full stack engineer with experience in HTML, CSS, JavaScrip, React, NodeJS, PostgreSQL, and ExpressJS.</p>
+                <p>Hello, my name is Victori. I'm a full stack engineer with experience in HTML, CSS, JavaScrip, React, NodeJS, PostgreSQL, and ExpressJS.</p>
 
                 <p>I always love learing new things, so I will continue to develop my skills in React, as well as other languages that I have yet to touch.</p>
 
