@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -32,23 +32,43 @@ class App extends React.Component {
         },
       }
   }
-  
+
+  getInitialState () {
+    return {
+      navExpanded: false
+    }
+  }
+
+  setNavExpanded(expanded) {
+    this.setState({ navExpanded: expanded });
+  }
+
+  closeNav() {
+    this.setState({ navExpanded: false });
+  }
+
+  handleClick() {
+    const [expanded, setExpanded] = setState(false);
+  } 
+
   render(){
+    
     return (
       <Router> 
         <Container className='p-0' fluid={true}>
           
-          <Navbar className='border-bottom' bg='transparent' expand='lg'>
+          <Navbar expanded={expanded} className='border-bottom' bg='transparent' expand='lg'>
             <Navbar.Brand>Victoria Moore</Navbar.Brand>
-
+          
             <Navbar.Toggle
+              onClick={() => setExpanded(expanded ? false : "expanded")}
               className='border-0'
               aria-controls='navbar-toggle' />
 
             <Navbar.Collapse id='navbar-toggle'>
               <Nav className='ml-auto'>
-                <NavLink className='nav-link' to='/'>Home</NavLink>
-                <NavLink className='nav-link' to='/about'>About</NavLink>
+                <Link onClick={() => setExpanded(false)} className='nav-link' to='/'>Home</Link>
+                <Link onClick={() => setExpanded(false)} className='nav-link' to='/about'>About</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
