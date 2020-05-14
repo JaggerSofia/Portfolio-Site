@@ -33,23 +33,23 @@ class App extends React.Component {
       }
   }
 
-  getInitialState () {
-    return {
-      navExpanded: false
-    }
-  }
+  // getInitialState () {
+  //   return {
+  //     navExpanded: false
+  //   }
+  // }
 
-  setNavExpanded(expanded) {
-    this.setState({ navExpanded: expanded });
-  }
+  // setNavExpanded(expanded) {
+  //   this.setState({ navExpanded: expanded });
+  // }
 
-  closeNav() {
-    this.setState({ navExpanded: false });
-  }
+  // closeNav() {
+  //   this.setState({ navExpanded: false });
+  // }
 
-  handleClick() {
-    const [expanded, setExpanded] = setState(false);
-  } 
+  // handleClick() {
+  //   const [expanded, setExpanded] = setState(false);
+  // } 
 
   render(){
     
@@ -57,18 +57,18 @@ class App extends React.Component {
       <Router> 
         <Container className='p-0' fluid={true}>
           
-          <Navbar expanded={expanded} className='border-bottom' bg='transparent' expand='lg'>
+          <Navbar /*expanded={expanded}*/ className='border-bottom' bg='transparent' expand='lg'>
             <Navbar.Brand>Victoria Moore</Navbar.Brand>
           
             <Navbar.Toggle
-              onClick={() => setExpanded(expanded ? false : "expanded")}
+              // onClick={() => setExpanded(expanded ? false : "expanded")}
               className='border-0'
               aria-controls='navbar-toggle' />
 
             <Navbar.Collapse id='navbar-toggle'>
               <Nav className='ml-auto'>
-                <Link onClick={() => setExpanded(false)} className='nav-link' to='/'>Home</Link>
-                <Link onClick={() => setExpanded(false)} className='nav-link' to='/about'>About</Link>
+                <Link /*onClick={() => setExpanded(false)}*/ className='nav-link' to='/'>Home</Link>
+                <Link /*onClick={() => setExpanded(false)}*/ className='nav-link' to='/about'>About</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
