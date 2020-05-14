@@ -75,3 +75,9 @@ code {
 .social-link {
   padding: 20px 0;
 }
+
+.aboutpage__link {
+  text-decoration: none;
+  font-weight: 900;
+  color: #37f2f8;
+}
