@@ -65,6 +65,7 @@ code {
     background-color: #000 !important;
     border-color: #69EACB !important;
     color: #EACCF8 !important;
+    cursor: pointer;
 }
 
 .description {
