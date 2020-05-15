@@ -47,9 +47,9 @@ class App extends React.Component {
   //   this.setState({ navExpanded: false });
   // }
 
-  // handleClick() {
-  //   const [expanded, setExpanded] = setState(false);
-  // } 
+  // setExpanded(e) {
+  //   const [expanded, setExpanded] = useState(false);
+  // }
 
   render(){
     
@@ -99,6 +99,7 @@ class App extends React.Component {
       </Router>
     );
   }
+  
 }
 
 export default App;
