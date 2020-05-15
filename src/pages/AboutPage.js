@@ -7,9 +7,9 @@ function AboutPage(props) {
         <div>
             <Hero title={props.title} />
             <Content>
-                <p>Hello, my name is Victori. I'm a full stack engineer with experience in HTML, CSS, JavaScrip, React, NodeJS, PostgreSQL, and ExpressJS.</p>
+                <p>Hello, my name is Victori. I'm a full-stack engineer with experience in HTML, CSS, JavaScrip, React, NodeJS, PostgreSQL, and ExpressJS.</p>
 
-                <p>I always love learing new things, so I will continue to develop my skills in React, as well as other languages that I have yet to touch. During my time with Thinkful I have gained many new skills, including the ability to work remotely with a team of developers, I look forward to bringing the skills I have learned to all teams that I will work with going forward.</p>
+                <p>I always love learning new things, so I will continue to develop my skills in React, as well as other languages that I have yet to touch. During my time with Thinkful I have gained many new skills, including the ability to work remotely with a team of developers, I look forward to bringing the skills I have learned to all teams that I will work with going forward.</p>
 
                 <p>My most recent project was my group capstone with Thinkful called Get Meals, my team created a public source to find free food in your area. The app was born in the midst of the COVID-19 out of a want to help people easily find places where they can get free meals, the location of food banks. I was placed in charge of the overall design of the page, you can take a look at it <a href="https://get-meals-app.now.sh/" target="_blank" rel="noopener noreferrer" className='aboutpage__link'>here</a>, or on the home page.</p>
 
