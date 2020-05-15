@@ -11,7 +11,7 @@ function CardInfo(props) {
             <p className="v-card-sub-title">{props.subTitle}</p>
             <p className='v-card-sub-title description' >{props.description}</p>
             <p className='v-card-sub-title'>{props.tech}</p>
-            <a href={props.link} target="_blank" rel="noopener noreferrer">View</a>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">View Here</a>
             <br />
             <a href={props.repoFront} target="_blank" rel="noopener noreferrer">GitHub</a>
         </animated.div>
