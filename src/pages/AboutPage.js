@@ -7,7 +7,7 @@ function AboutPage(props) {
         <div>
             <Hero title={props.title} />
             <Content>
-                <p>Hello, my name is Victori. I'm a full-stack engineer with experience in HTML, CSS, JavaScrip, React, NodeJS, PostgreSQL, and ExpressJS.</p>
+                <p>Hello, my name is Victoria. I'm a full-stack engineer with experience in HTML, CSS, JavaScrip, React, NodeJS, PostgreSQL, and ExpressJS.</p>
 
                 <p>I always love learning new things, so I will continue to develop my skills in React, as well as other languages that I have yet to touch. During my time with Thinkful I have gained many new skills, including the ability to work remotely with a team of developers, I look forward to bringing the skills I have learned to all teams that I will work with going forward.</p>
 
