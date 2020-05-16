@@ -6,9 +6,8 @@ import CardInfo from '../components/CardInfo';
 function Card(props) {
 
     return(
-        <div className="d-inline-block v-card" onClick={(e) => props.click(props.item)}>
+        <div className="d-inline-block v-card">
             <img className="v-card-image" src={props.item.imgSrc} alt={props.item.imgSrc} />
-            { props.item.selected && 
                 <CardInfo 
                     title={props.item.title}
                     subTitle={props.item.subTitle}
@@ -16,7 +15,7 @@ function Card(props) {
                     tech={props.item.tech}
                     link={props.item.link} 
                     repoFront={props.item.repoFront}
-                />}
+                />
         </div>
     );
 
