@@ -1,6 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 import Card from '../components/Card';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import DoctorWho from '../assets/images/Doctor-Who.png';
 import TrailFinder from '../assets/images/Trail-Finder.png';
@@ -9,7 +11,7 @@ import BookNation from '../assets/images/BookNation.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-class Carousel extends React.Component {
+class CarouselCard extends React.Component {
 
     constructor(props) {
         super(props);
@@ -90,14 +92,14 @@ class Carousel extends React.Component {
 
     render() {
         return(
-            <Container fluid={true}>
-                <Row className="justify-content-center">
-                    {this.makeItems(this.state.items)}
-                </Row>
-            </Container>
+                <Container fluid={true}>
+                    <Row className="justify-content-center" >
+                        {this.makeItems(this.state.items)}
+                    </Row>
+                </Container>
         );
     }
 
 }
 
-export default Carousel;
+export default CarouselCard;
